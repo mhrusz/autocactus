@@ -1,0 +1,10 @@
+**Autocactus***
+
+Set of microservices to autodeploy posts at cactus blog. Autodeployment is meant to be done by sending email message
+to a chosen email address.
+
+**Technology stack**
+
+In order to implement autocactus service I will use the following software stack. First of all, Python
+will be used. In the first stage of architecture development, the Celery task engine will be used. 
+All received posts by email will be stored at MongoDB documents database.
